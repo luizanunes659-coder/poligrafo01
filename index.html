@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial
+scale=1.0"> 
+    <title>TESTE DO POLÍGRAFO</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+ 
+    <div class="jogo"> 
+ 
+        <h1>TESTE DO POLÍGRAFO</h1> 
+        <p>Responda às perguntas do Interrogatório com sinceridade...</p> 
+ 
+        <div class="cenario"> 
+ 
+            <div class="balao" id="pergunta"> 
+                Vamos começar o interrogatório? 
+            </div> 
+ 
+            <img src="personagem.jpeg" alt="Interrogatório"> 
+ 
+        </div> 
+ 
+        <h3 id="numero">Pergunta 1 de 10</h3> 
+ 
+        <select id="resposta"> 
+            <option value="">Selecione sua resposta</option> 
+            <option value="sim">Sim</option> 
+            <option value="nao">Não</option> 
+        </select> 
+ 
+        <button onclick="responder()">RESPONDER</button> 
+ 
+        <h2 id="resultado"></h2> 
+ 
+        <button id="reiniciar" onclick="reiniciarJogo()"> 
+            Reiniciar 
+        </button> 
+ 
+    </div> 
+ 
+    <script src="script.js"></script> 
+</body> 
+</html>

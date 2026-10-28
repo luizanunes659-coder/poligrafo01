@@ -1,0 +1,76 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #a9b6c6; 
+    text-align: center; 
+    margin: 0; 
+    padding: 10px; 
+} 
+ 
+.jogo { 
+    background-color: white; 
+    max-width: 650px; 
+    margin: auto; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px #0002; 
+} 
+ 
+h1 { 
+    color: #263c60; 
+} 
+ 
+.cenario { 
+    position: relative; 
+    margin-top: 20px; 
+} 
+ 
+.cenario img { 
+    margin-top: 10%;
+    width: 100%; 
+    max-width: 500px; 
+} 
+ 
+.balao { 
+    position: absolute;  
+    left: 50%; 
+    transform: translateX(-50%); 
+ 
+    background-color: #fff3c4; 
+    border: 2px solid #333; 
+    border-radius: 15px; 
+    padding: 12px; 
+ 
+    width: 65%; 
+    font-size: 16px; 
+    font-weight: bold; 
+} 
+ 
+select { 
+    padding: 12px; 
+    width: 220px; 
+    border-radius: 8px; 
+    font-size: 16px; 
+} 
+ 
+button { 
+    padding: 12px 20px; 
+    margin: 10px; 
+    background-color: #263c60; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+} 
+ 
+button:hover { 
+    background-color: #4169a1; 
+} 
+ 
+#resultado { 
+    margin-top: 20px; 
+} 
+ 
+#reiniciar { 
+    display: none; 
+    background-color: #35834b; 
+}
